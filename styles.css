@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans:wght@700&display=swap');
+
+
+body{
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    background-color: #F3DE00;
+}
+
+.Info{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #F3DE00;
+
+}
+
+.Info img{
+    height: auto;
+    width: 430px;
+}
+
+.Texto{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: start; 
+    justify-content: space-around;
+
+}
+
+.Texto h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Texto h2{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.Texto p{
+    color: #4A4A4A;
+    line-height: 28px;
+    font-size: 22px;
+    margin-bottom: 2px;
+    text-align: justify;
+}
+
+.red-social{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.red-social a{
+    display: center;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    margin-right: 10px;
+    background-color:#4A4A4A;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 30px;     
+    font-size: 20px;  
+    text-decoration: none;  
+    
+}
+
+.red-social a:hover{
+    color: #F3DE00;
+}
